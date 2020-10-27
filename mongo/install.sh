@@ -1,3 +1,3 @@
-mkdir -p ~/Library/LaunchAgents/
+# mkdir -p ~/Library/LaunchAgents/
 
-brew services start mongodb
+# brew services start mongodb

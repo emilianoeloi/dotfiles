@@ -2,7 +2,7 @@
 
 A lot of stuff. Seriously, a lot of stuff. Check them out in the file browser
 above and see what components may mesh up with you.
-[Fork it](https://github.com/guilhermebruzzi/dotfiles/fork), remove what you don't
+[Fork it](https://github.com/emilianoeloi/dotfiles/fork), remove what you don't
 use, and build on what you do use.
 
 ## components
@@ -23,7 +23,7 @@ There's a few special files in the hierarchy.
 Run this:
 
 ```sh
-git clone https://github.com/guilhermebruzzi/dotfiles.git ~/.dotfiles
+git clone https://github.com/emilianoeloi/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
@@ -43,5 +43,5 @@ this script in `bin/`.
 
 ## thanks
 
-I forked [holman](http://github.com/holman)' excellent
-[dotfiles](http://github.com/holman/dotfiles) , removed some stuff and added python, oh-my-zsh, some plugins, functions and other stuff.
+I forked [guilhermebruzzi](http://github.com/guilhermebruzzi)' excellent
+[dotfiles](http://github.com/guilhermebruzzi/dotfiles) , removed some stuff and added python, oh-my-zsh, some plugins, functions and other stuff.

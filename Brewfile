@@ -6,4 +6,4 @@ tap 'tsuru/homebrew-tsuru'
 
 
 brew 'tsuru'
-
+brew 'zsh-completions'

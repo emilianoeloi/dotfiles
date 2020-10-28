@@ -1,13 +1,13 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
-export PROJECTS=~/projetos
+export PROJECTS=~/projeto
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+ZSH_THEME="random"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,7 +51,7 @@ ZSH_CUSTOM=$HOME/.dotfiles/zsh/custom
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git rvm python virtualenvwrapper npm zsh-completions z)
+plugins=(git zsh-completions)
 
 # User configuration
 
@@ -99,22 +99,6 @@ then
   source ~/.localrc
 fi
 
-# rvm
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-# python
-export WORKON_HOME=$HOME/.virtualenvs
-export PIP_VIRTUALENV_BASE=$WORKON_HOME
-source /usr/local/bin/virtualenvwrapper.sh
-export LC_ALL=en_US.UTF-8
-export LANG=en_US.UTF-8
-
 # Android
-export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
-
-# Meteor config
-export USE_GLOBAL_ADK=t
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+# export ANDROID_HOME=$HOME/Library/Android/sdk
+# export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools

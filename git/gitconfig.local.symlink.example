@@ -3,22 +3,6 @@
         path = ~/.gitconfig.local
 [hub]
         protocol = https
-[alias]
-        ll   = log --pretty=oneline --decorate --abbrev-commit --max-count=20
-        la   = log --max-count=20 --color --pretty=format:'%Cred%h %Cgreen%ci %an %C(yellow)%d%Creset - %s'
-        wip  = !git add -u && git commit -m ...
-        wipc = !date >> WIP && git add WIP && git commit -m ...
-        fp = format-patch --stdout
-        bv = !git branch --color -v | cut -c1-100
-        s  = status -sb -uno --ignore-submodules=untracked
-        sa = status -sb --ignore-submodules=untracked
-        st = status
-        ci = commit
-        br = branch
-        co = checkout
-        df = diff
-        ps = push
-        pl = pull --rebase
 [branch]
         autosetupmerge = true
 [color]

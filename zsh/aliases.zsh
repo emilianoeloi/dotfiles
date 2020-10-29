@@ -11,7 +11,11 @@ alias cls='clear' # Good 'ol Clear Screen command
 alias flushdns='dscacheutil -flushcache'
 
 #projetos
+# Firma
 alias nsdk='cd ~/project/native-sdk-ios/'
 alias gshow='cd ~/project/gshow-app-ios/'
 alias drajtjs='cd ~/project/draftjs-render-ios/'
 alias nvc='cd ~/project/native-video-content/'
+# Open Source
+alias confirmados='cd ~/project/confirmados'
+alias gcd='cd ~/project/gitlab-ci-dashboard'
